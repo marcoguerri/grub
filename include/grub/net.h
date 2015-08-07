@@ -574,6 +574,8 @@ grub_net_add_dns_server (const struct grub_net_network_level_address *s);
 void
 grub_net_remove_dns_server (const struct grub_net_network_level_address *s);
 
+void
+grub_net_tcp_init (void);
 
 extern char *grub_net_default_server;
 
